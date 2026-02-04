@@ -1,6 +1,6 @@
 ## 📌 Task 1: Basic Mathematical Operations
 
-### 🔹 Problem Description
+### Problem Description
 
 Write a Python program that:
 
@@ -13,13 +13,13 @@ Write a Python program that:
    * Division
 3. Displays the result of each operation
 
-### 🔹 Features
+### Features
 
 * Accepts decimal numbers using `float`
 * Handles division by zero safely
 * Displays clear output for each operation
 
-### 🔹 Sample Code
+### Sample Code
 
 ```python
 num1 = float(input("Enter the first number: "))
@@ -34,14 +34,14 @@ if num2 != 0:
 else:
     print("Division: Undefined (cannot divide by zero)")
 ```
-### 🔹 Output
+### Output
 <img width="1162" height="202" alt="image" src="https://github.com/user-attachments/assets/100aecfc-2ead-4bb3-9358-218c1a6077da" />
 
 ---
 
 ## 📌 Task 2: Personalized Greeting Program
 
-### 🔹 Problem Description
+### Problem Description
 
 Write a Python program that:
 
@@ -49,13 +49,13 @@ Write a Python program that:
 2. Concatenates them into a full name
 3. Prints a personalized greeting message
 
-### 🔹 Features
+### Features
 
 * Demonstrates string input and concatenation
 * Creates a friendly personalized message
 * Simple and beginner-friendly logic
 
-### 🔹 Sample Code
+### Sample Code
 
 ```python
 first_name = input("Enter your first name: ")
@@ -64,7 +64,7 @@ last_name = input("Enter your last name: ")
 full_name = first_name + " " + last_name
 print("Hello, " + full_name + "! Welcome to Python program!")
 ```
-### 🔹 Output
+### Output
 <img width="1125" height="113" alt="image" src="https://github.com/user-attachments/assets/7fc56280-a140-42f5-8984-b276c1e41970" />
 
 ---
@@ -86,6 +86,7 @@ python filename.py
 ```
 
 ---
+
 
 
 
