@@ -34,6 +34,8 @@ if num2 != 0:
 else:
     print("Division: Undefined (cannot divide by zero)")
 ```
+### 🔹 Output
+<img width="1162" height="202" alt="image" src="https://github.com/user-attachments/assets/100aecfc-2ead-4bb3-9358-218c1a6077da" />
 
 ---
 
@@ -62,6 +64,8 @@ last_name = input("Enter your last name: ")
 full_name = first_name + " " + last_name
 print("Hello, " + full_name + "! Welcome to Python program!")
 ```
+### 🔹 Output
+<img width="1125" height="113" alt="image" src="https://github.com/user-attachments/assets/7fc56280-a140-42f5-8984-b276c1e41970" />
 
 ---
 
@@ -82,5 +86,6 @@ python filename.py
 ```
 
 ---
+
 
 
