@@ -51,10 +51,9 @@ A calculator window will open.
 
 ## GUI Preview
 
-```
+
 ![alt text](image.png)
 
-```
 
 ## Requirements
 
