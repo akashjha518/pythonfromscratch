@@ -1,69 +1,63 @@
-# Python Calculator using Tkinter
+# Calculator Using Tkinter
 
-A simple calculator application built using Python's **Tkinter** library. It provides a graphical user interface (GUI) to perform basic arithmetic operations.
+A simple desktop calculator built with Python and Tkinter. The app provides a basic graphical interface for entering numbers and performing common arithmetic operations.
 
 ## Features
 
-- User-friendly GUI
-- Number buttons (0–9)
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- Equals (=) button to calculate results
-- Clear button to reset the display
-- Error handling for invalid expressions
+- Number input buttons from `0` to `9`
+- Addition, subtraction, multiplication, and division
+- Equals button to display the result
+- Clear button to reset the input field
+- Simple Tkinter-based GUI
 
 ## Technologies Used
 
 - Python 3
-- Tkinter (built-in Python GUI library)
+- Tkinter, included with the standard Python installation
 
 ## Project Structure
 
-```
-calculator/
-│── calculator.py
-└── README.md
+```text
+6.CALCULATOR_USING_TKINTER/
+|-- image.png
+|-- readme.md
+`-- tkcalculator.py
 ```
 
 ## How to Run
 
-1. Make sure Python 3 is installed on your system.
-2. Save the source code as `calculator.py`.
-3. Open a terminal or command prompt.
-4. Navigate to the project directory.
-5. Run the following command:
+1. Make sure Python 3 is installed.
+2. Open a terminal in this project folder.
+3. Run the application:
 
 ```bash
-python calculator.py
+python tkcalculator.py
 ```
 
-A calculator window will open.
+If your system uses the Python launcher, you can also run:
+
+```bash
+py tkcalculator.py
+```
 
 ## Usage
 
-1. Click the number buttons to enter values.
-2. Select an arithmetic operator (`+`, `-`, `*`, `/`).
-3. Enter the second number.
-4. Press the **=** button to display the result.
-5. Press the **Clear** button to reset the input field.
+1. Click a number button to enter the first value.
+2. Click an operator button: `+`, `-`, `*`, or `/`.
+3. Click number buttons to enter the second value.
+4. Click `=` to calculate the result.
+5. Click `clear` to reset the display.
 
 ## GUI Preview
 
+![Calculator preview](image.png)
 
-![alt text](image.png)
+## Notes
 
-
-## Requirements
-
-- Python 3.x
-- Tkinter (included with standard Python installation)
+- The calculator currently works with integer input.
+- Division results may be shown as decimal values.
+- This project is intended for Python and Tkinter practice.
 
 ## Author
 
 **Akash Jha**
-
-## License
-
-This project is created for educational and assignment purposes.
