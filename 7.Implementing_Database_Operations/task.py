@@ -37,13 +37,13 @@ def extract():
 
     cursor = conn.cursor()
     cursor.execute('''select * from employees;''')
-    print(cursor.fetchone())
+    print(cursor.fetchall())
     print("Data extracted successfully")
 
     conn.commit()
     conn.close()
 
-# extract()
+extract()
 
 
 def cond_extract():
@@ -74,4 +74,4 @@ def truncate():
     conn.commit()
     conn.close()
 
-truncate()
+# truncate()
