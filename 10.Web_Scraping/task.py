@@ -57,7 +57,7 @@ class PriceTracer:
             os.chdir("..")
             return image_url
     
-    def compare(self,price):
+    def compare(self):
         price = self.soup.find("span", {"id":"apex-pricetopay-accessibility-label"}).text
         
         product_price = int(price.replace("₹", "").replace(",", "").split(".")[0])
@@ -89,6 +89,6 @@ for url in urls:
 
     print("=" * 50)
     print("Title :", device.product_title())
-    print("Price :", device.compare(target_price))
+    print("Price :", device.compare())
 
     device.product_image()

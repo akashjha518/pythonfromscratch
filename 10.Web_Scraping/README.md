@@ -32,6 +32,8 @@ Expected Output:
 - `beautifulsoup4`
 - `lxml`
 
+## Code
+![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)![alt text](image-4.png)![alt text](image-5.png)
 ## How to run
 
 ```bash
@@ -40,17 +42,4 @@ python task.py
 
 ## Output
 
-```bash
-(venv) PS B:\TuteDude\PythonFromScratch\10.Web_Scraping> python task.py                                                
-Enter your target price: 50000                                                    
-==================================================
-Title : Apple iPhone 16e 128 GB: Built for Apple Intelligence, A18 Chip, Supersized Battery Life, 48MP Fusion. Camera, 15.40 cm (6.1″) Super Retina XDR Display; White
-Price : Product is ₹9900 above your budget.
-==================================================
-Title : Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage), 200MP Camera, S Pen Included, Long Battery Life
-Price : Product is ₹68999 above your budget.
-==================================================
-Title : OnePlus Nord CE6 | 8GB+128GB | Pitch Black | Snapdragon 7s Gen 4 | Segment's Fastest Touch Response | 8000mAh Battery | 144Hz 1.5K AMOLED Display | 50MP Main + 32MP Selfie 4K Cameras | IP66,68,69,69K
-Price : Great! Product is within your budget.
-
-```
+![alt text](image.png)
